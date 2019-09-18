@@ -1,0 +1,13 @@
+// vue的render方法以及vue支持jsx的代码
+{
+  "presets": [
+    "env"
+  ],
+   "plugins": [
+     "transform-vue-jsx" // 专门转化vue中的jsx代码
+   ]
+}
+
+//转换vue中的jsx代码
+//npm i babel-preset-env@1.6.1 babel-plugin-transform-vue-jsx@3.5.0
+//npm i babel-helper-vue-jsx-merge-props@^2.0.0 babel-plugin-syntax-jsx@^6.8.0
